@@ -1,0 +1,120 @@
+@media all and(max-width:600px){
+    .articulos{
+        flex-direction: column;
+    }
+}
+*{
+
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    background-size: cover;
+}
+
+h1{
+    background: center;
+    align-items: center;
+    font-size: 70px;
+    color: aqua;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 300px;
+    color: rgb(255, 255, 255);
+    background: url(../imagen/leon.jpg);
+    background-size: cover;
+    align-items: center;
+    
+}
+.margenes-internos{
+    background-position: center;
+        background-size: cover;
+        background-attachment: contain;
+        margin-bottom: 80px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        padding: 20px 20px;
+
+    }
+ 
+    .contenedor-padre{
+        background: url(../imagen/depositphotos_7404628-stock-photo-digital-universe.jpg);
+        display: flex;
+        flex-flow: column nowrap;
+        font-size: 300px;
+        align-items: center;
+        background-size: cover;
+    }
+ 
+.seccion{
+    
+    display: flex;
+    flex-flow: row nowrap;
+    background-position: center;
+    background-size: cover;
+    
+}
+    .articulos{
+    background: url(../imagen/istockphoto-1219382595-612x612.jpg);
+    background-size: cover;
+    background-attachment: contain;
+    align-items: center;
+    height: 900px;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 500px 500px;
+    }
+    
+    @media all and(max-width:600px){
+        .articulos{
+            flex-direction: column;
+        }
+    }
+   
+    b{
+        text-decoration: none;
+        font-size: 300px;
+        background: rgb(1, 211, 248);
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .padre{
+        background: url(../imagen/material-YHTrmAye-thumb@l.png);
+        display: flex;
+        flex-flow: column nowrap;
+        font-size: 300px;
+        align-items: center;
+        background-size: cover;
+    }
+    .menu-pantalla{
+        background: url(../imagen/depositphotos_7404628-stock-photo-digital-universe.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: contain;
+        margin-bottom: 80px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        padding: 20px 20px;
+    }
+    .matematicas{
+        
+        background: coral;
+        background-size: cover;
+        background-attachment: contain;
+        align-items: center;
+        height: 500px;
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 500px 500px;
+        
+    }
+    h2{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 100px;
+        color: rgb(34, 255, 0);
+        text-transform: uppercase;
+    }
